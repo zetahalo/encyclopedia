@@ -1,0 +1,127 @@
+html{
+    min-height: 100vh;
+}
+body{
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+    min-height: 100vh;
+}
+
+/* common styles */
+hr{
+    margin-top: 0;
+}
+.text-aliceblue{
+    color: aliceblue;
+}
+.bg-cornflowerblue{
+    background-color: cornflowerblue;
+}
+.list{
+    list-style: none;
+}
+.center{
+    text-align: center;
+}
+.article-image-description{
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.2em;
+    font-size: small;
+    padding: 2px;
+}
+/* common styles */
+
+.header{
+    height: 100px;
+    background-image: url('../images/header.jpg');
+}
+.under-header-container{
+    display: flex;
+    height: calc(100% - 100px);
+}
+.side-bar{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 200px;
+    height: 30vh;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.side-bar-title{
+    background-color: cornflowerblue;
+}
+.side-bar>ul{
+    padding: 0;
+    padding-left: 10px;
+}
+
+.side-bar>ul>li>a{
+    text-decoration: none;
+}
+.side-bar>ul>li>a:hover{
+    font-weight: bold;
+}
+.content-container{
+    flex: 2;
+    margin-left: 10px;
+    padding: 0 10px 0 10px;
+    border: 1px silver solid;
+    
+}
+.content-list-container{
+    width: 200px;
+    /* padding: 0 0 0 20px; */
+    border: 1px silver solid;
+}
+.content-list-title{
+}
+.content-list-container>ul{
+    padding: 0 0 0 20px;
+}
+.content-list-container>ul>li>a{
+    text-decoration: none;
+}
+.content-list-container>ul>li>a:hover{
+    font-weight: bold;
+}
+.article-title{
+    margin-bottom: 0;
+}
+.article-image-container{
+    float: left;
+    margin-right: 10px;
+    width: 240px;
+    background-color: #f8f9fa;
+    border: 1px silver solid;
+}
+.article-image-container>.article-image{
+    padding: 5px 5px 0 5px;
+}
+.infobox{
+    border-right: 1px silver solid;
+    margin-right: 10px;
+    width: 300px;
+}
+.infobox-title{
+    font-weight: bolder;
+    font-size: larger;
+    height: 3vh;
+}
+.infobox-photo{
+    background-color: #f8f9fa;
+    text-align: center;
+}
+.infobox-photo>a{
+    height: 0;
+}
+.infobox-table{
+    width: 100%;
+    text-align: left;
+    background-color: #f8f9fa;
+    border-bottom: 1px silver solid;
+}
+.infobox-table-label{
+    font-weight: bold;
+}
